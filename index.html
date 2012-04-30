@@ -1,23 +1,85 @@
-<!--
-To change this template, choose Tools | Templates
-and open the template in the editor.
--->
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!DOCTYPE HTML>
 <html>
-  <head>
-    <title>ChannelFinder Directory Service</title>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-  </head>
-  <body>
-    <h1>ChannelFinder</h1>
+<head>
+<meta charset="utf-8">
+<title>AccelUtils</title>
+<link rel="shortcut icon" href="images/favicon.ico"/>
+<link href="site.css" rel="stylesheet" type="text/css"><!--[if lte IE 7]>
+<style>
+.content { margin-right: -1px; } /* this 1px negative margin can be placed on any of the columns in this layout with the same corrective effect. */
+ul.nav a { zoom: 1; }  /* the zoom property gives IE the hasLayout trigger it needs to correct extra whiltespace between the links */
+</style>
+<![endif]-->
+</head>
+
+<body>
+
+<div class="container">
+  <div class="header"><a href="#" class="header"><a href="#" class="header"></a>
+    <table width="100%" border="0" cellpadding="5">
+      <tr>
+        <td><a href="#" class="header"><img src="images/channel-finder-48.png" alt="AccelUtil" name="logo" width="96" height="96" id="logo" /></a></td>
+        <td width="100%"><h1>ChannelFinder</h1>
+        <p>        Directory Service for EPICS Channels</p></td>
+      </tr>
+    </table>
+
+    <!-- end .header --></div>
+  <div class="sidebar1">
+    <ul class="nav">
+      <li><a href="https://sourceforge.net/p/channelfinder"><img src="images/sourceforge.png" alt="SourceForge" name="SFlogo" height="32" align="absmiddle" id="SFlogo"> Project Home</a></li>
+      <li><a href="http://channelfinder.hg.sourceforge.net/hgweb/channelfinder"><img src="images/droplets-32.png" alt="Mercurial" width="32" height="31" align="absmiddle"> Mercurial Browse</a></li>
+      <li><a href="https://irmis-dev.bnl.gov/jenkins/view/ChannelFinder/"><img src="images/JENKINS.png" alt="Jenkins" width="32" height="32" align="absmiddle"> Build Server</a></li>
+      <li><a href="http://java.net/jira/browse/CHANNELFINDER"><img src="images/Jira.jpg" alt="JIRA" name="SFlogo" width="32" height="32" align="absmiddle" id="SFlogo"> Issue Tracking</a></li>
+    </ul>
+   <p> Components </p>
+    <ul class="nav">
+      <li><a href="ChannelFinder/">Web Service</a></li>
+      <li><a href="ChannelFinderAPI/">Java Client API</a></li>
+      <li><a href="channelfinderpy/">Python Client API</a></li>
+    </ul>
+    <p>&nbsp;</p>
+    <!-- end .sidebar1 --></div>
+  <div class="content">
     <p>ChannelFinder is a directory server, implemented as a REST style web service.
         Its intended use is within control systems, namely the EPICS Control system,
-        for which it has been written.</p>
-    <p>It consists of three projects, the Web Service itself and the Java Client library 
-       which are <a href="http://maven.apache.org/">Maven</a> projects, it also consists of a 
-       Python Client Library.</p>
-    <h2><a href="ChannelFinder/">ChannelFinder Web Service</a></h2>
-    <h2><a href="ChannelFinderAPI/">Java ChannelFinder Client Library</a></h2>
-    <h2><a href="channelfinderpy/">Python ChannelFinder Client Library</a></h2>
-  </body>
+    for which it has been written.</p>
+<p>It consists of three projects, the Web Service itself and the Java Client library 
+  which are <a href="http://maven.apache.org/">Maven</a> projects, it also consists of a 
+  Python Client Library.</p>
+<p> This effort a collaboration between:</p>
+    <table cellpadding="0" cellspacing="5" align="center" >
+      <tr>
+        <td><img src="http://www.bnl.gov/PGA/images/BNL_logo_sm.jpg" alt="BNL" style="float: right" /></td>
+        <td><h1>BNL</h1>
+          <p>Brookhaven National 
+        Laboratory</p></td>
+      </tr>
+      <tr>
+        <td><img src="images/hzb_logo_rgb.gif" width="192" height="98" style="float: right" alt="HZB"></td>
+        <td><h1>HZB</h1>
+          <p>Helmholtz Zentrum Berlin</p></td>
+      </tr>
+    </table>
+    <p>&nbsp;</p>
+  </div>
+  <div class="footer">
+    <p>This project could not exists without the outstanding work provided by:</p>
+    <table cellpadding="0" cellspacing="5" align="center" >
+      <tr>
+        <td>Icons:</td>
+        <td><a href="http://p.yusukekamiyamane.com/">Fugue 3.0</a>, <a href="http://www.fatcow.com/free-icons/">Fatcow 1000</a>, <a href="http://www.icon-king.com/">Nuvola 1.0</a></td>
+      </tr>
+      <tr>
+        <td>Tools:</td>
+        <td><a href="http://www.netbeans.org">NetBeans</a>, <a href="http://www.glassfish.org">Glassfish</a>, <a href="http://eclipse.org">Eclipse</a>, <a href="http://maven.apache.org">Maven</a></td>
+      </tr>
+      <tr>
+        <td>Companion projects:</td>
+        <td><a href="http://www.aps.anl.gov/epics">EPICS</a>, <a href="http://cs-studio.sourceforge.net">Control System Studio</a></td>
+      </tr>
+    </table>
+    <!-- end .footer --></div>
+  <!-- end .container --></div>
+</body>
 </html>
