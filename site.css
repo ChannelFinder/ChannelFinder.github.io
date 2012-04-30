@@ -154,3 +154,27 @@ ul.nav a:hover, ul.nav a:active, ul.nav a:focus { /* this changes the background
 .footer a:focus {
 	color: #FFFFFF;
 }
+.components {
+	background-color: #5DA4D4;
+	width: 50%;
+	vertical-align: top;
+}
+.components a {
+	text-decoration: none;
+	color: rgb(255,255,255);
+}
+.components p {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+.components a:hover {
+	text-decoration: underline;
+}
+
+.components h1 {
+	color: rgb(255,255,255);
+	background-color: rgb(0,112,187);
+}
