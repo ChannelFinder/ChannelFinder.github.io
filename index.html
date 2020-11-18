@@ -24,41 +24,46 @@ ul.nav a { zoom: 1; }  /* the zoom property gives IE the hasLayout trigger it ne
       </tr>
     </table>
 
-    <!-- end .header --></div>
+  <!-- end .header --></div>
   <div class="sidebar1">
     <ul class="nav">
-      <li><a href="http://accelutils.sourceforge.net/"><img src="images/accelutils-64.png" alt="AccelUtils" name="SFlogo" height="32" align="absmiddle" > AccelUtils Home</a></li>
       <li><a href="https://github.com/ChannelFinder"><img src="images/gravatar-user-420.png" alt="Github" width="32" height="31" align="absmiddle"> Github</a></li>
-      <li><a href="https://openepics.ci.cloudbees.com/view/ChannelFinder/"><img src="images/JENKINS.png" alt="Jenkins" width="32" height="32" align="absmiddle"> Build Server</a></li>
-      <li><a href="https://github.com/ChannelFinder/ChannelFinderService/issues"><img src="images/gravatar-user-420.png" alt="Github" width="32" height="32" align="absmiddle" id="SFlogo"> Issue Tracking</a></li>
+      <li><a href="https://github.com/ChannelFinder/ChannelFinder-SpringBoot/issues"><img src="images/gravatar-user-420.png" alt="Github" width="32" height="32" align="absmiddle" id="SFlogo"> Issue Tracking</a></li>
     </ul>
    <p> Components </p>
     <ul class="nav">
-      <li><a href="https://github.com/ChannelFinder/ChannelFinderService/">Web Service</a></li>
+      <li><a href="https://github.com/ChannelFinder/ChannelFinder-SpringBoot">Web Service</a></li>
       <li><a href="https://github.com/ChannelFinder/javaCFClient">Java Client API</a></li>
       <li><a href="https://github.com/ChannelFinder/pyCFClient">Python Client API</a></li>
     </ul>
     <p>&nbsp;</p>
     <!-- end .sidebar1 --></div>
   <div class="content">
-    <p>ChannelFinder is a directory server, implemented as a REST style web service.
-        Its intended use is within control systems, namely the EPICS Control system,
-    for which it has been written.</p>
-<p>It consists of three projects, the Web Service itself and the Java Client library 
-  which are <a href="http://maven.apache.org/">Maven</a> projects, it also consists of a 
-  Python Client Library.</p>
+    <p>ChannelFinder is a directory service for EPICS channels.</p>
+    <p>It consists of few projects</p> 
+    <p>The Web Service, it is implemented as a REST style web service.</p> 
+    <p>Client libraries: There are currently Java and python client libraries available.</p> 
+    <p>Recsync: An EPICS module which enabled IOC to report its list of records to ChannelFinder.</p>
 <table width="100%" border="0" cellpadding="0" cellspacing="20" >
   <tr>
-    <td class="components"><h1><a href="ChannelFinder/">Web Service</a></h1>
-      <p><a href="https://sourceforge.net/projects/channelfinder/files/ChannelFinder/">Download</a> - <a href="https://github.com/ChannelFinder/ChannelFinderService/blob/master/README.md">Installation Instructions</a></p>
-<p>&nbsp;</p></td>
-    <td class="components"><h1><a href="http://channelfinder.sourceforge.net/ChannelFinderAPI/">Java API</a></h1>
+    <td class="components"><h1><a href="https://github.com/ChannelFinder/ChannelFinder-SpringBoot">Web Service</a></h1>
+      <p><a href="https://github.com/ChannelFinder/ChannelFinder-SpringBoot#channel-finder">Installation Instructions</a> - <a href="https://channelfinder.readthedocs.io/en/latest/">API reference</a></p>
+    <p>&nbsp;</p></td>
   </tr>
   <tr>
-    <td class="components"><h1><a href="channelfinderpy/">Python API</a></h1>
-      <p><a href="http://channelfinder.sourceforge.net/channelfinderpy/channelfinderpy.tar">Download</a> - <a href="http://channelfinder.sourceforge.net/channelfinderpy/pydocs/">PyDocs</a></p>
+    <td class="components"><h1><a href="https://github.com/ChannelFinder/javaCFClient">Java API</a></h1>
+    <p><a href="https://github.com/ChannelFinder/javaCFClient/tree/master#javacfclient">Installation Instructions</a>
+    <p>&nbsp;</p></td>
+  </tr>
+  <tr>
+    <td class="components"><h1><a href="https://github.com/ChannelFinder/pyCFClient">Python API</a></h1>
+      <p><a href="https://github.com/ChannelFinder/pyCFClient#pycfclient">Installation Instructions</a> - <a href="http://channelfinder.sourceforge.net/channelfinderpy/pydocs/">PyDocs</a></p>
       <p>&nbsp;</p></td>
-    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td class="components"><h1><a href="https://github.com/ChannelFinder/recsync">Recsync</a></h1>
+      <p><a href="https://github.com/ChannelFinder/recsync#recsync">Installation Instructions</a></p>
+      <p>&nbsp;</p></td>
   </tr>
 </table>
 <p>&nbsp;</p>
@@ -83,10 +88,6 @@ ul.nav a { zoom: 1; }  /* the zoom property gives IE the hasLayout trigger it ne
       <tr>
         <td>Icons:</td>
         <td><a href="http://p.yusukekamiyamane.com/">Fugue 3.0</a>, <a href="http://www.fatcow.com/free-icons/">Fatcow 1000</a>, <a href="http://www.icon-king.com/">Nuvola 1.0</a></td>
-      </tr>
-      <tr>
-        <td>Tools:</td>
-        <td><a href="http://www.netbeans.org">NetBeans</a>, <a href="http://www.glassfish.org">Glassfish</a>, <a href="http://eclipse.org">Eclipse</a>, <a href="http://maven.apache.org">Maven</a></td>
       </tr>
       <tr>
         <td>Companion projects:</td>
